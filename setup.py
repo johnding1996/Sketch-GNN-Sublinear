@@ -4,16 +4,13 @@ import sys
 
 here = os.path.abspath(os.path.dirname(__file__))
 sys.path.insert(0, os.path.join(here, 'sublinear_gnn'))
-from version import __version__
-
-print(f'Version {__version__}')
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="sublinear_gnn",
-    version=__version__,
+    version='0.0.1',
     author="Mucong Ding",
     author_email="mcding@umd.edu",
     url="https://johnding1996.github.io/Sublinear-GNN/",

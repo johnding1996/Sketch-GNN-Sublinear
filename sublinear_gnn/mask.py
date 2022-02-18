@@ -1,8 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
 from scipy.optimize import fsolve
-import warnings
-#warnings.filterwarnings('ignore', 'The iteration is not making good progress')
 
 
 def gcn_response(size, freqs=None, avg_deg=None, nlayer=3, activation='ReLU'):

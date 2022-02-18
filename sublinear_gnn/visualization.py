@@ -3,9 +3,6 @@ from theory import gcn_response
 import matplotlib.pyplot as plt
 
 
-
-
-
 def plot_predicted_spectral_response(size, freqs, avg_deg, max_nlayer=3, activation='ReLU'):
     assert activation in ['ReLU']
     
